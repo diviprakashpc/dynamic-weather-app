@@ -50,6 +50,7 @@
 #section2-container {
   display: flex;
   border-top: 1px solid white;
+  flex-wrap: nowrap;
   color: white;
   width: 100%;
 }
