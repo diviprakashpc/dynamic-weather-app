@@ -1,28 +1,23 @@
-
 * {
   box-sizing: border-box;
   margin: 0%;
 }
 
-
-
 #container {
   width: 30%;
   margin: 8rem auto;
   font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
-  background-image: url(./images/fog.gif);
-    background-size:cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;
-
+  /* background-image: url(./images/fog.gif);
+  background-size: cover; /* <------ */
+  /* background-repeat: no-repeat;
+  background-position: center center; */ 
 }
 
-#s1{
+#s1 {
   /* background-image: url(./images/fog.gif) */
 }
 
 #s1 #section1-container {
-  
   color: white;
   display: flex;
   flex-direction: column;
@@ -44,7 +39,7 @@
 }
 
 /* --------------Section 1 ends------------------ */
-#s2{
+#s2 {
   /* background-image: url(./images/fog.gif) */
 }
 #section2-container {
@@ -57,11 +52,11 @@
 
 #section2-container > div {
   padding: 18px;
-    font-size: 13px;
-    display: flex;
-    flex-direction: column;
-    line-height: 3rem;
-    width: 100%;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  line-height: 3rem;
+  width: 100%;
 }
 
 /* //////////Section 2 ends/////////////////// */
